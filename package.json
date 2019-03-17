@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cleandir ./.cache && gatsby build",
+    "deploy": "cleandir ./.cache && gatsby build --prefix-paths && gh-pages -d public",
     "develop": "cleandir ./.cache && gatsby develop",
     "start": "npm run develop",
     "lint": "eslint ./src",

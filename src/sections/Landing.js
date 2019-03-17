@@ -80,7 +80,7 @@ const LandingPage = () => (
             >
               <TextLoop>
                 {roles.map(text => (
-                  <Text width={[500, 800]} key={text}>
+                  <Text key={text}>
                     {text}
                   </Text>
                 ))}
