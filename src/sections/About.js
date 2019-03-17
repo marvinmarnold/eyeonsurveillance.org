@@ -33,7 +33,7 @@ const Background = () => (
 );
 
 const ProfilePicture = styled(Image)`
-  border-radius: 50%;
+  border-radius: 5%;
   transition: all 0.25s ease-out;
 
   &:hover {
@@ -43,7 +43,7 @@ const ProfilePicture = styled(Image)`
 
 const About = () => (
   <Section.Container id="about" Background={Background}>
-    <Section.Header name="About me" icon="🙋‍♂️" label="person" />
+    <Section.Header name="About" />
     <StaticQuery
       query={graphql`
         query AboutMeQuery {

@@ -64,23 +64,23 @@ const LandingPage = () => (
             <Heading
               textAlign="center"
               as="h1"
-              color="primary"
+              color="secondaryDark"
               fontSize={[5, 6, 8]}
               mb={[3, 4, 5]}
             >
-              {`Hello, I'm ${name}!`}
+              {`${name}`}
             </Heading>
 
             <Heading
               as="h2"
-              color="primary"
+              color="primaryLight"
               fontSize={[4, 5, 6]}
               mb={[3, 5]}
               textAlign="center"
             >
               <TextLoop>
                 {roles.map(text => (
-                  <Text width={[300, 500]} key={text}>
+                  <Text width={[500, 800]} key={text}>
                     {text}
                   </Text>
                 ))}
