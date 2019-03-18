@@ -54,12 +54,16 @@ const Footer = () => (
             display: 'table',
           }}
         >
-          Participating groups
+          Presented by
         </Text>
       </span>
       <Flex justifyContent="center" alignItems="center">
         <Text m={2} fontSize={4}>
-          ACLU, Stop Watching NOLA
+          <a href="https://www.laaclu.org/" style={{
+          color: 'white'
+        }}>ACLU of Louisiana</a> &amp; <a href="http://stopwatchingnola.org/" style={{
+          color: 'white'
+        }}>Stop Watching NOLA</a>
         </Text>
       </Flex>
     </Fade>
