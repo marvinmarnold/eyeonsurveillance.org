@@ -68,7 +68,17 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+      >
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="vendor/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css" />
+
+    {/* <-- CSS Front Template --> */}
+    <link rel="stylesheet" href="css/theme.css" />
+    </Helmet>
   )
 }
 
