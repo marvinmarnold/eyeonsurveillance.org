@@ -19,10 +19,11 @@ var gulp                   = require('gulp'),
 
 const ghPages = require('gulp-gh-pages');
 
-task('deploy', () => src([
-    './dist/**/*', 
-    './index.html']
-  ).pipe(ghPages()));
+gulp.task('deploy', () => gulp.src([
+      './dist/**/*', 
+      './index.html',
+      './CNAME'
+    ]).pipe(ghPages()));
 
 //
 // Gulp plumber error handler - displays if any error occurs during the process on your command
@@ -221,4 +222,11 @@ gulp.task('copyVendors', function() {
   .pipe(gulp.dest('./dist/assets/vendor/'))
 });
 
-gulp.task('dist', ['copyVendors', 'minCSS', 'minJS', 'minIMG']);
+gulp.task('copyEos', function() {
+  gulp.src([
+    './assets/eos/**/*',
+  ])
+  .pipe(gulp.dest('./dist/assets/eos/'))
+});
+
+gulp.task('dist', ['copyVendors', 'minCSS', 'minJS', 'minIMG', 'copyEos', 'cname']);
