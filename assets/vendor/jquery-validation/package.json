@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/jquery-validation/-/jquery-validation-1.19.1.tgz",
   "_shasum": "a85043467dc2b70d9fff05778646d150e747742f",
   "_spec": "jquery-validation@^1.17.0",
-  "_where": "/home/user/code/eos/front-test",
+  "_where": "/home/user/code/eos/eyeonsurveillance.org",
   "author": {
     "name": "Jörn Zaefferer",
     "email": "joern.zaefferer@gmail.com",

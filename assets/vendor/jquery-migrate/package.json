@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/jquery-migrate/-/jquery-migrate-3.1.0.tgz",
   "_shasum": "8158de74cca39fb7fc2635db570151ae7ce3ddea",
   "_spec": "jquery-migrate@^3.0.1",
-  "_where": "/home/user/code/eos/front-test",
+  "_where": "/home/user/code/eos/eyeonsurveillance.org",
   "author": {
     "name": "OpenJS Foundation and other contributors",
     "url": "https://openjsf.org"
