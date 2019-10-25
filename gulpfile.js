@@ -22,6 +22,7 @@ const ghPages = require('gulp-gh-pages');
 gulp.task('deploy', () => gulp.src([
       './dist/**/*', 
       './index.html',
+      './no/*',
       './CNAME'
     ]).pipe(ghPages()));
 
