@@ -16,13 +16,6 @@ var gulp                   = require('gulp'),
     pngquant               = require('imagemin-pngquant'),
     browserSync            = require('browser-sync').create();
 
-var deploy                 = require('gulp-gh-pages');
-
-gulp.task('deploy', function () {
-  return gulp.src("./dist/**/*")
-    .pipe(deploy())
-});
-
 
 
 //
@@ -68,7 +61,7 @@ gulp.task('sass', function () {
 gulp.task('serve', function() {
   browserSync.init({
     files: "./*.html",
-    startPath: "./html/home/",
+    startPath: "./",
     server: {
       baseDir: "./",
       routes: {},
