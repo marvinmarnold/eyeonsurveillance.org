@@ -17,6 +17,12 @@ var gulp                   = require('gulp'),
     browserSync            = require('browser-sync').create();
 
 
+const ghPages = require('gulp-gh-pages');
+
+task('deploy', () => src([
+    './dist/**/*', 
+    './index.html']
+  ).pipe(ghPages()));
 
 //
 // Gulp plumber error handler - displays if any error occurs during the process on your command
