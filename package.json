@@ -20,7 +20,7 @@
     "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglifyjs": "^0.6.2",
     "imagemin-jpeg-recompress": "^5.1.0",

@@ -22,7 +22,9 @@ const ghPages = require('gulp-gh-pages');
 gulp.task('deploy', () => gulp.src([
       './dist/**/*', 
       './index.html',
-      './no/*',
+      './new-orleans.html',
+      './facial-recognition-ban.html',
+      './eos.html',
       './CNAME'
     ]).pipe(ghPages()));
 
@@ -230,4 +232,4 @@ gulp.task('copyEos', function() {
   .pipe(gulp.dest('./dist/assets/eos/'))
 });
 
-gulp.task('dist', ['copyVendors', 'minCSS', 'minJS', 'minIMG', 'copyEos', 'cname']);
+gulp.task('dist', ['copyVendors', 'minCSS', 'minJS', 'minIMG', 'copyEos']);
