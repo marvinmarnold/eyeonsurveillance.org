@@ -110,6 +110,7 @@ gulp.task('default', ['watch', 'sass', 'serve'])
 gulp.task('minCSS', function() {
   return gulp.src([
     './assets/css/theme.css',
+    './assets/css/arcgis.css'
   ])
   .pipe(cssnano())
   .pipe(rename({suffix: '.min'}))
@@ -165,8 +166,10 @@ gulp.task('minJS', function() {
     './assets/js/components/hs.validation.js',
     './assets/js/components/hs.video-player.js',
     './assets/js/theme-custom.js',
+    './assets/js/arcgis.js'
   ])
   .pipe(concat('theme.min.js'))
+  // .pipe(concat('arcgis.js'))
   .pipe(uglify())
   .pipe(gulp.dest('./dist/assets/js/'));
 });
