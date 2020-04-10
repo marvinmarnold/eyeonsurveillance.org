@@ -145,7 +145,7 @@
           // where: sqlExpression
         };
         featureLayer.queryFeatures(query).then(function(result) {
-          console.log("queryFeatures")
+          console.log("queryFeatures:")
           console.log(result.features)
           addGraphics(result);
         });
