@@ -65,9 +65,9 @@
         container: "viewDiv",
         map: map,
         center: [-90.0663, 29.957436],
-        zoom: 9
+        zoom: 11
       });
-      
+
       //*** CHALLENGE ***//
       var sql = "STATE_NAME = 'Louisiana'";
 
@@ -75,7 +75,7 @@
         //*** ADD ***//
         queryFeatureLayer(view.center, 991500, "intercects")
         queryFeatureLayerView(view.center, 991500, "intersects")
-        
+
         //*** CHALLENGE ***//
         // queryFeatureLayer(view.center, 1500, "intersects", sql)
         // queryFeatureLayerView(view.center, 1500, "intersects", sql)
@@ -85,24 +85,24 @@
         //*** ADD ***//
         queryFeatureLayer(event.mapPoint, 991500, "intersects")
         queryFeatureLayerView(event.mapPoint, 991500, "intersects");
-        
+
         //*** CHALLENGE ***//
         // queryFeatureLayer(event.mapPoint, 1500, "intersects", sql)
         // queryFeatureLayerView(event.mapPoint, 1500, "intersects", sql)
       });
 
-    
+
       // Reference the feature layer to query
- 
+
       var featureLayer = new FeatureLayer({
         url: "https://services.arcgis.com/VhMjCzR3cIjEkh7L/arcgis/rest/services/RTCC_Cameras/FeatureServer/0/",
       });
-    
+
      // Add a graphics layer to hold features and draw data
-    
+
       var graphicsLayer = new GraphicsLayer();
       map.add(graphicsLayer);
-    
+
       function addGraphics(result) {
         console.log("addGraphics")
         // console.log(result.features)
@@ -133,9 +133,9 @@
           graphicsLayer.add(g);
         });
       }
-    
+
       // Server-side query
-    
+
       function queryFeatureLayer(point, distance, spatialRelationship, sqlExpression) {
         var query = {
           geometry: point,
@@ -150,11 +150,11 @@
           console.log(result.features)
           addGraphics(result);
         });
-      }  
-        
+      }
+
       // Client-side query
-    
-      function queryFeatureLayerView(point, distance, spatialRelationship, sqlExpression){ 
+
+      function queryFeatureLayerView(point, distance, spatialRelationship, sqlExpression){
         if (!map.findLayerById(featureLayer.id)) {
           featureLayer.outFields = ["*"];
           map.add(featureLayer,0);
@@ -173,18 +173,18 @@
             var handle = featureLayerView.watch("updating", function(isUpdating){
               if (!isUpdating) {
                 featureLayerView.queryFeatures(query).then(function(result) {
-                  addGraphics(result) 
+                  addGraphics(result)
                 });
                 handle.remove();
               }
-            });            
+            });
           } else {
             featureLayerView.queryFeatures(query).then(function(result) {
               addGraphics(result);
             });
           }
         });
-      } 
+      }
 
       function updateCount(count) {
         const num = window.document.getElementById("num-cameras-holder")
@@ -193,7 +193,7 @@
         num.textContent = count
       }
     });
-    
+
   </script>
 <body id="homeSection">
 
@@ -267,7 +267,7 @@
         <div class="col">
           <div id="viewDiv" style="height:500px"></div>
 
-<!--           <iframe style="width: 100%; height: 500px;" src="//www.zeemaps.com/pub?group=3001614&amp;locate=1&amp;simpleadd=1" frameborder="0"></iframe>      -->   
+<!--           <iframe style="width: 100%; height: 500px;" src="//www.zeemaps.com/pub?group=3001614&amp;locate=1&amp;simpleadd=1" frameborder="0"></iframe>      -->
         </div>
       </div>
 
@@ -282,7 +282,7 @@
 
 
     <!-- End Hero Section -->
-   
+
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
@@ -357,6 +357,6 @@
 
 
   <!-- JS Plugins Init. -->
-  
+
 </body>
 </html>
