@@ -35,7 +35,7 @@
 
   <!-- CSS Implementing Plugins -->
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/e444c855b2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
 
   <!-- CSS Front Template -->
@@ -45,7 +45,10 @@
   <link rel="stylesheet" href="https://js.arcgis.com/3.32/esri/css/esri.css">
   <script src="https://js.arcgis.com/4.15/"></script>
 
+
 <script>
+  let cameras = false
+
   require([
       "esri/Map",
       "esri/views/MapView",
@@ -57,6 +60,7 @@
       Map, MapView, FeatureLayer, GraphicsLayer, Graphic
     ) {
 
+
       var map = new Map({
         basemap: "topo-vector"
       });
@@ -65,9 +69,9 @@
         container: "viewDiv",
         map: map,
         center: [-90.0663, 29.957436],
-        zoom: 9
+        zoom: 11
       });
-      
+
       //*** CHALLENGE ***//
       var sql = "STATE_NAME = 'Louisiana'";
 
@@ -75,7 +79,7 @@
         //*** ADD ***//
         queryFeatureLayer(view.center, 991500, "intercects")
         queryFeatureLayerView(view.center, 991500, "intersects")
-        
+
         //*** CHALLENGE ***//
         // queryFeatureLayer(view.center, 1500, "intersects", sql)
         // queryFeatureLayerView(view.center, 1500, "intersects", sql)
@@ -85,32 +89,49 @@
         //*** ADD ***//
         queryFeatureLayer(event.mapPoint, 991500, "intersects")
         queryFeatureLayerView(event.mapPoint, 991500, "intersects");
-        
+
         //*** CHALLENGE ***//
         // queryFeatureLayer(event.mapPoint, 1500, "intersects", sql)
         // queryFeatureLayerView(event.mapPoint, 1500, "intersects", sql)
       });
 
-    
+
       // Reference the feature layer to query
- 
+
       var featureLayer = new FeatureLayer({
         url: "https://services.arcgis.com/VhMjCzR3cIjEkh7L/arcgis/rest/services/RTCC_Cameras/FeatureServer/0/",
       });
-    
+
      // Add a graphics layer to hold features and draw data
-    
+
       var graphicsLayer = new GraphicsLayer();
       map.add(graphicsLayer);
-    
+
+      function genCameras(result) {
+        console.log("genCameras")
+        // Only create the CSV once
+        if (cameras) return
+
+        cameras = [["Latitude", "Longitude", "Random ID"]]
+
+        result.features.forEach(function(element) {
+          cameras.push([
+            element.geometry.latitude,
+            element.geometry.longitude,
+            Math.random()
+          ])
+        })
+
+        console.log("Generated cameras " + cameras.length)
+      }
+
       function addGraphics(result) {
-        console.log("addGraphics")
+
+        // console.log("addGraphics")
         // console.log(result.features)
         updateCount(result.features.length)
-        // result.features.forEach(function(element) {
-        //   console.log(element.geometry.latitude+","+element.geometry.longitude)
-        //   // console.log(element.geometry.latitude+","+element.geometry.longitude+","+Math.random())
-        // })
+        genCameras(result)
+
         graphicsLayer.removeAll();
         result.features.forEach(function(feature){
           var g = new Graphic({
@@ -126,16 +147,16 @@
               size: "20px"
             },
             popupTemplate: {
-             title: "{TRL_NAME}",
-             content: "This a {PARK_NAME} trail located in {CITY_JUR}."
+             title: "Surveillance Camera Details ",
+             content:  feature.geometry.latitude + ", " + feature.geometry.longitude + " (lat, long)"
             }
           });
           graphicsLayer.add(g);
         });
       }
-    
+
       // Server-side query
-    
+
       function queryFeatureLayer(point, distance, spatialRelationship, sqlExpression) {
         var query = {
           geometry: point,
@@ -146,15 +167,15 @@
           // where: sqlExpression
         };
         featureLayer.queryFeatures(query).then(function(result) {
-          console.log("queryFeatures:")
-          console.log(result.features)
+          // console.log("queryFeatures:")
+          // console.log(result.features)
           addGraphics(result);
         });
-      }  
-        
+      }
+
       // Client-side query
-    
-      function queryFeatureLayerView(point, distance, spatialRelationship, sqlExpression){ 
+
+      function queryFeatureLayerView(point, distance, spatialRelationship, sqlExpression){
         if (!map.findLayerById(featureLayer.id)) {
           featureLayer.outFields = ["*"];
           map.add(featureLayer,0);
@@ -173,27 +194,46 @@
             var handle = featureLayerView.watch("updating", function(isUpdating){
               if (!isUpdating) {
                 featureLayerView.queryFeatures(query).then(function(result) {
-                  addGraphics(result) 
+                  addGraphics(result)
                 });
                 handle.remove();
               }
-            });            
+            });
           } else {
             featureLayerView.queryFeatures(query).then(function(result) {
               addGraphics(result);
             });
           }
         });
-      } 
+      }
 
       function updateCount(count) {
         const num = window.document.getElementById("num-cameras-holder")
-        console.log("update count")
-        console.log(num)
+        // console.log("update count")
+        // console.log(num)
         num.textContent = count
       }
     });
-    
+
+    function downloadCsv() {
+      if (!cameras) {
+        console.log("Camera data not yet ready to downlaod")
+      } else {
+
+        let csvContent = "data:text/csv;charset=utf-8," 
+          + cameras.map(e => e.join(",")).join("\n");
+
+        var encodedUri = encodeURI(csvContent);
+        var link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "new-orleans-surveillance-cameras.csv");
+        document.body.appendChild(link); // Required for FF
+        link.click(); // This will download the data file named "my_data.csv".
+
+        console.log("Download window should have popped up.")
+      }
+    }
+
   </script>
 </head>
 
@@ -255,7 +295,7 @@
         <!-- Hero Section -->
     <div class="container space-2 space-top-md-4 space-top-lg-3">
       <div class="w-lg-80 text-center mx-lg-auto">
-        <div class="mb-11">
+        <div class="">
           <h1 class="display-4 font-weight-semi-bold">N.O. Surveillance Cameras</h1>
           <p class="lead font-weight-normal"><a href="http://nolagis.maps.arcgis.com/apps/webappviewer/index.html?id=47ce86e8b9ec4d119d9eda5659d28a3e">Source: RTCC</a></p>
           <h4>Num cameras public: <span class=text-info id="num-cameras-holder">(loading)</span></h4>
@@ -265,11 +305,17 @@
         </div>
       </div>
 
+      <div class="row space-1">
+        <div class="col">
+          <button type="button" onclick="downloadCsv()" class="btn btn-lg btn-block btn-outline-primary">Download CSV</button>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col">
           <div id="viewDiv" style="height:500px"></div>
 
-<!--           <iframe style="width: 100%; height: 500px;" src="//www.zeemaps.com/pub?group=3001614&amp;locate=1&amp;simpleadd=1" frameborder="0"></iframe>      -->   
+<!--           <iframe style="width: 100%; height: 500px;" src="//www.zeemaps.com/pub?group=3001614&amp;locate=1&amp;simpleadd=1" frameborder="0"></iframe>      -->
         </div>
       </div>
 
@@ -284,7 +330,7 @@
 
 
     <!-- End Hero Section -->
-   
+
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
@@ -359,6 +405,6 @@
 
 
   <!-- JS Plugins Init. -->
-  
+
 </body>
 </html>
