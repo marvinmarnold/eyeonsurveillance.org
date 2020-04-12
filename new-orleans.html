@@ -35,7 +35,7 @@
 
   <!-- CSS Implementing Plugins -->
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/e444c855b2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
 
   <!-- CSS Front Template -->
@@ -45,7 +45,10 @@
   <link rel="stylesheet" href="https://js.arcgis.com/3.32/esri/css/esri.css">
   <script src="https://js.arcgis.com/4.15/"></script>
 
+
 <script>
+  let cameras = false
+
   require([
       "esri/Map",
       "esri/views/MapView",
@@ -56,6 +59,7 @@
     function(
       Map, MapView, FeatureLayer, GraphicsLayer, Graphic
     ) {
+
 
       var map = new Map({
         basemap: "topo-vector"
@@ -103,14 +107,31 @@
       var graphicsLayer = new GraphicsLayer();
       map.add(graphicsLayer);
 
+      function genCameras(result) {
+        console.log("genCameras")
+        // Only create the CSV once
+        if (cameras) return
+
+        cameras = [["Latitude", "Longitude", "Random ID"]]
+
+        result.features.forEach(function(element) {
+          cameras.push([
+            element.geometry.latitude,
+            element.geometry.longitude,
+            Math.random()
+          ])
+        })
+
+        console.log("Generated cameras " + cameras.length)
+      }
+
       function addGraphics(result) {
-        console.log("addGraphics")
+
+        // console.log("addGraphics")
         // console.log(result.features)
         updateCount(result.features.length)
-        // result.features.forEach(function(element) {
-        //   console.log(element.geometry.latitude+","+element.geometry.longitude)
-        //   // console.log(element.geometry.latitude+","+element.geometry.longitude+","+Math.random())
-        // })
+        genCameras(result)
+
         graphicsLayer.removeAll();
         result.features.forEach(function(feature){
           var g = new Graphic({
@@ -126,8 +147,8 @@
               size: "20px"
             },
             popupTemplate: {
-             title: "{TRL_NAME}",
-             content: "This a {PARK_NAME} trail located in {CITY_JUR}."
+             title: "Surveillance Camera Details ",
+             content:  feature.geometry.latitude + ", " + feature.geometry.longitude + " (lat, long)"
             }
           });
           graphicsLayer.add(g);
@@ -146,8 +167,8 @@
           // where: sqlExpression
         };
         featureLayer.queryFeatures(query).then(function(result) {
-          console.log("queryFeatures:")
-          console.log(result.features)
+          // console.log("queryFeatures:")
+          // console.log(result.features)
           addGraphics(result);
         });
       }
@@ -188,11 +209,30 @@
 
       function updateCount(count) {
         const num = window.document.getElementById("num-cameras-holder")
-        console.log("update count")
-        console.log(num)
+        // console.log("update count")
+        // console.log(num)
         num.textContent = count
       }
     });
+
+    function downloadCsv() {
+      if (!cameras) {
+        console.log("Camera data not yet ready to downlaod")
+      } else {
+
+        let csvContent = "data:text/csv;charset=utf-8," 
+          + cameras.map(e => e.join(",")).join("\n");
+
+        var encodedUri = encodeURI(csvContent);
+        var link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "new-orleans-surveillance-cameras.csv");
+        document.body.appendChild(link); // Required for FF
+        link.click(); // This will download the data file named "my_data.csv".
+
+        console.log("Download window should have popped up.")
+      }
+    }
 
   </script>
 </head>
@@ -255,13 +295,19 @@
         <!-- Hero Section -->
     <div class="container space-2 space-top-md-4 space-top-lg-3">
       <div class="w-lg-80 text-center mx-lg-auto">
-        <div class="mb-11">
+        <div class="">
           <h1 class="display-4 font-weight-semi-bold">N.O. Surveillance Cameras</h1>
           <p class="lead font-weight-normal"><a href="http://nolagis.maps.arcgis.com/apps/webappviewer/index.html?id=47ce86e8b9ec4d119d9eda5659d28a3e">Source: RTCC</a></p>
           <h4>Num cameras public: <span class=text-info id="num-cameras-holder">(loading)</span></h4>
           <h4> vs.</h4>
           <h4>Num surveillance cameras: <span class=text-primary>401</span></h4>
           <h6>RTCC published fewer surveillance cameras publicly than the number they quoted in January 2019</h6>
+        </div>
+      </div>
+
+      <div class="row space-1">
+        <div class="col">
+          <button type="button" onclick="downloadCsv()" class="btn btn-lg btn-block btn-outline-primary">Download CSV</button>
         </div>
       </div>
 

@@ -33,6 +33,7 @@
     "clipboard": "^2.0.1",
     "custombox": "^4.0.3",
     "datatables": "^1.10.18",
+    "export-to-csv": "^0.2.1",
     "flag-icon-css": "^3.0.0",
     "flatpickr": "^4.5.1",
     "gmaps": "^0.4.24",
