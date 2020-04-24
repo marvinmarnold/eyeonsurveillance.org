@@ -115,6 +115,7 @@
         cameras = [["Latitude", "Longitude", "Random ID"]]
 
         result.features.forEach(function(element) {
+          console.log(element)
           cameras.push([
             element.geometry.latitude,
             element.geometry.longitude,
