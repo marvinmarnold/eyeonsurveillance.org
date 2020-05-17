@@ -1,0 +1,276 @@
+Latitude,Longitude,Name,Street,City,State,Country,Zipcode,Category,Photo URL,Description,Y,OBJECTID,Direction,Location,InstallDate,Function,MonitoredSchool,Speed_Enc,RLC_Enf,SZ_Enf,SZSpeedLimit,SZTriggerSpeed,RegSpeedLimit,TriggerSpeed,X
+29.97476,-90.100505,NO01,N Carrollton Ave @ Canal St,,SB,United States,,Traffic,,,29.974765417927053,1,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.100510621177051
+29.974579,-90.100854,NO02,Canal St @ S Carrollton Ave,,EB,United States,,Traffic,,,29.97458441751051,2,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.100859621274694
+29.965531,-90.109873,NO03,S Carrollton Ave @ Palmetto St,,NB,United States,,Traffic,,,29.965536415243498,3,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.109878623734375
+29.965975,-90.10986,NO04,S Carrollton Ave @ Palmetto St,,SB,United States,,Traffic,,,29.965980415574339,4,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.109865623041358
+29.960826,-90.115091,NO05,S Carrollton Ave @ Earhart Blvd,,NB,United States,,Traffic,,,29.960831414167952,5,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.115096624647364
+29.961293,-90.114862,NO06,S Carrollton Ave @ Earhart Blvd,,SB,United States,,Traffic,,,29.961298414061755,6,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.114867624892042
+29.961,-90.114681,NO07,Earhart Blvd @ S Carrollton Ave,,WB,United States,,Traffic,,,29.961005414563903,7,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.114686624802047
+29.961133,-90.115227,NO08,Earhart Blvd @ S Carrollton Ave,,EB,United States,,Traffic,,,29.961138414091682,8,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.115232624684722
+29.950903,-90.075837,NO09,Poydras St @ Loyola Ave,,EB,United States,,Traffic,,,29.950908413214091,9,,,2008-01-25T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.075842613251936
+29.93912,-90.075657,NO10,St Charles Ave @ Martin Luther King Jr Blvd,,NB,United States,,Traffic,,,29.939125410645232,10,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.075662612618061
+29.93912,-90.075657,NO11,St Charles Ave @ Martin Luther King Jr Blvd,,SB,United States,,Traffic,,,29.939125410645232,11,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.075662612618061
+29.949487,-90.070599,NO14,Poydras St @ St Charles Ave,,EB,United States,,Traffic,,,29.949492412864846,12,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.070604612374709
+29.931015,-90.086026,NO15,St Charles Ave @ Washington Ave,,EB,United States,,Traffic,,,29.93102040860634,13,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.086031615154155
+29.928225,-90.091326,NO16,St Charles Ave @ Louisiana Ave,,EB,United States,,Traffic,,,29.928230407779786,14,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,,,,,35,45,-90.091331617193717
+29.928225,-90.091326,NO17,St Charles Ave @ Louisiana Ave,,WB,United States,,Traffic,,,29.928230407779786,15,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,,,,,35,45,-90.091331617193717
+29.948931,-90.06815,NO18,Poydras St @ Magazine St,,WB,United States,,Traffic,,,29.948936413479391,16,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.068155611400186
+29.949937,-90.071849,NO19,Poydras St @ Carondelet St,,WB,United States,,Traffic,,,29.949942413300111,17,,,2008-06-27T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.071854612142928
+30.013292,-90.074978,NO20 / 25,Paris Ave @ Crescent Dr,,NB,United States,,Traffic,,,30.013297426629332,18,,,2009-03-20T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-90.074983616352668
+30.015934,-90.075197,NO21 / 26,Paris Ave @ Prentiss Ave,,SB,United States,,Traffic,,,30.015939427717068,19,,,2009-03-20T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-90.075202615931147
+29.946139,-90.098299,NO22,Toledano St @ Galvez St,,NB,United States,,Traffic,,,29.946144411379599,20,,,2009-03-20T00:00:00.000Z,FS / TFS,,x,,,,,35,45,-90.098304619699704
+29.946139,-90.098299,NO23,Toledano St SB @ Galvez St,,SB,United States,,Traffic,,,29.946144411379599,21,,,2009-03-20T00:00:00.000Z,FS / TFS,,x,,,,,35,45,-90.098304619699704
+29.994373,-90.113849,NO24,Florida Blvd @ Milne Blvd,,EB,United States,,Traffic,,,29.994378421193343,22,,,2009-03-20T00:00:00.000Z,FS / TFS,,x,,,,,35,45,-90.113854625837689
+30.00284,-90.108244,NO31 / 47,Canal Blvd @ French St 6200 vlk Canal,,NB,United States,,Traffic,,,30.00284542304103,23,,,2009-10-16T00:00:00.000Z,FS / TFS,St. Pauls Episcopal School,x,,x,20,26,35,45,-90.108249624719406
+30.00284,-90.108244,NO32 / 48,Canal Blvd @ French St 6200 vlk Canal,,SB,United States,,Traffic,,,30.00284542304103,24,,,2009-10-16T00:00:00.000Z,FS / TFS,St. Pauls Episcopal School,x,,x,20,26,35,45,-90.108249624719406
+29.926371,-90.10442,NO33 / 49,St Charles Ave @ Jena St 4500 Blk St Charles,,EB,United States,,Traffic,,,29.926376406758038,25,,,2009-10-16T00:00:00.000Z,FS / TFS,Academy of the Sacred Heart,x,,x,20,26,35,45,-90.104425619854467
+29.926288,-90.103313,NO34 / 5,St Charles Ave @ Jena St 4500 Blk St Charles,,WB,United States,,Traffic,,,29.926293406737265,26,,,2009-10-16T00:00:00.000Z,FS / TFS,Academy of the Sacred Heart,x,,x,20,26,35,45,-90.103318619811077
+30.022914,-89.968403,NO35 / 51,Read Blvd @ Hammond St 4800 Block of Read,,NB,United States,,Traffic,,,30.022919432040734,27,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-89.9684085870622
+30.022914,-89.968403,NO36 / 52,Read Blvd @ Hammond St 4800 Block of Read,,SB,United States,,Traffic,,,30.022919432040734,28,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-89.9684085870622
+29.931286,-90.078119,NO37 / 53,Jackson Ave @ Chestnut St (1),,NB,United States,,Traffic,,,29.931291408894321,29,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,25,35,-90.078124613589821
+30.022885,-89.968558,NO38 / 54,Jackson Ave @ Coliseum St (2),,SB,United States,,Traffic,,,30.022890432383239,30,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,25,35,-89.96856358728094
+30.00166,-90.050274,NO41 / 55,Franklin Ave @ Wisteria St (1),,NB,United States,,Traffic,,,30.001665425184168,31,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,,,,35,45,-90.050279608865097
+30.00166,-90.050274,NO42 / 56,Franklin Ave @ Wisteria St (2),,SB,United States,,Traffic,,,30.001665425184168,32,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,,,,35,45,-90.050279608865097
+29.980437,-90.105379,NO43 / 57,Bienville St @ N St Patrick St (3),,EB,United States,,Traffic,,,29.980442418935343,33,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-90.105384623325321
+29.979891,-90.104463,NO44 / 58,Bienville St @ N. Olympia St (4),,WB,United States,,Traffic,,,29.979896418997402,34,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-90.104468622518397
+29.978076,-90.106005,NO45 / 59,Canal St @ N. Olympia St (4),,WB,United States,,Traffic,,,29.978081417755106,35,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-90.106010623034251
+29.978693,-90.106927,NO46 / 60,Canal St @ S. St Patrick St (3),,EB,United States,,Traffic,,,29.97869841831649,36,,,2009-10-16T00:00:00.000Z,FS / TFS,,x,,x,20,26,35,45,-90.106932622806866
+29.961456,-90.041176,NO61,Chartres St @ Gallier St,,EB,United States,,Traffic,,,29.961461416481683,37,,,2010-06-04T00:00:00.000Z,FS / TFS,,x,,,,,25,35,-90.041181604496785
+29.961456,-90.041176,NO62,Chartres St @ Gallier St,,WB,United States,,Traffic,,,29.961461416481683,38,,,2010-06-04T00:00:00.000Z,FS / TFS,,x,,,,,25,35,-90.041181604496785
+29.931857,-90.078619,NO63,Henry Clay Ave @ Coliseum St,,NB,United States,,Traffic,,,29.931862409274377,39,,,2010-06-04T00:00:00.000Z,FS / TFS,,x,,,,,25,35,-90.078624613674506
+29.92577,-90.123197,NO64,Henry Clay Ave @ Coliseum St,,SB,United States,,Traffic,,,29.925775406035203,40,,,2010-06-04T00:00:00.000Z,FS / TFS,,x,,,,,25,35,-90.123202625717255
+29.981876,-90.111137,NO65,B City Park Ave @ Canal St,,SW,United States,,Traffic,,,29.981881418400988,41,,,2010-06-04T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.111142624034713
+29.966024,-90.063493,NO66,N Rampart St @ Esplanade Ave,,SB,United States,,Traffic,,,29.966029417005174,42,,,2010-06-04T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.063498611354106
+29.99928,-90.085999,NO67,Wisner Blvd @ Harrison Ave,,NB,United States,,Traffic,,,29.999285423581266,43,,,2010-07-07T00:00:00.000Z,SOG / RL,,,,,,,40,50,-90.086004617963951
+29.99928,-90.085999,NO68,Wisner Blvd @ Harrison Ave,,SB,United States,,Traffic,,,29.999285423581266,44,,,2010-07-07T00:00:00.000Z,SOG / RL,,,,,,,40,50,-90.086004617963951
+30.00398,-90.098899,NO71,Harrison Ave @ Marconi Dr,,WB,United States,,Traffic,,,30.003985423707565,45,,,2010-07-07T00:00:00.000Z,SOG / RL,,x,x,,,,25,35,-90.098904622224907
+29.972056,-90.10313,NO72,S Carrollton Ave @ Banks St,,NB,United States,,Traffic,,,29.972061416930753,46,,,2010-12-13T00:00:00.000Z,SOG / RL,,x,x,,,,35,45,-90.103135622367233
+29.939732,-90.027568,NO73 / 74,Pace Blvd @ St Julien Elementary,,NB,United States,,Traffic,,,29.939737412303728,47,,,2012-03-12T00:00:00.000Z,FS / TFS,St Julien Elementary,x,,,,,35,45,-90.027573599917332
+29.939732,-90.027568,NO75 / 76,Pace Blvd @ St Julien Elementary,,SB,United States,,Traffic,,,29.939737412303728,48,,,2012-03-12T00:00:00.000Z,FS / TFS,St Julien Elementary,x,,,,,35,45,-90.027573599917332
+30.015672,-90.042701,NO81,Press Dr @ Coghill Elementary,,NB,United States,,Traffic,,,30.015677428741615,49,,,2012-03-12T00:00:00.000Z,FS / TFS,Coghill Elementary,x,,,,,35,45,-90.042706607027441
+30.015672,-90.042701,NO83,Press Dr @ Coghill Elementary,,SB,United States,,Traffic,,,30.015677428741615,50,,,2012-03-12T00:00:00.000Z,FS / TFS,Coghill Elementary,x,,,,,35,45,-90.042706607027441
+29.948732,-90.049846,NO85 / 86,Opelousas Ave @ Holy Name of Mary,,EB,United States,,Traffic,,,29.948737413190869,51,,,2012-03-12T00:00:00.000Z,FS / TFS,Holy Name of Mary,x,,x,20,26,35,45,-90.049851605930499
+29.948732,-90.049846,NO87 / 88,Opelousas Ave @ Holy Name of Mary,,WB,United States,,Traffic,,,29.948737413190869,52,,,2012-03-12T00:00:00.000Z,FS / TFS,Holy Name of Mary,x,,x,20,26,35,45,-90.049851605930499
+29.94984,-90.125463,NO89 / 90,Carrollton Ave @ Kipp Believe School,,NB,United States,,Traffic,,,29.949845411700263,53,,,2012-03-12T00:00:00.000Z,FS / TFS,Kipp Believe School,x,,x,20,26,35,45,-90.125468626977323
+29.94984,-90.125463,NO91 / 92,Carrollton Ave @ Kipp Believe School,,SB,United States,,Traffic,,,29.949845411700263,54,,,2012-03-12T00:00:00.000Z,FS / TFS,Kipp Believe School,x,,x,20,26,35,45,-90.125468626977323
+29.931841,-90.08141,NO97 / 98,Prytania St @ McGehee School,,EB,United States,,Traffic,,,29.931846408518215,55,,,2012-03-12T00:00:00.000Z,FS / TFS,McGhee Middle School,x,,x,20,26,30,40,-90.08141561454309
+29.931841,-90.08141,NO99 / 100,Prytania St @ McGehee School,,WB,United States,,Traffic,,,29.931846408518215,56,,,2012-03-12T00:00:00.000Z,FS / TFS,McGhee Middle School,x,,x,20,26,30,40,-90.08141561454309
+29.936453,-90.073085,NO101 / 102,Camp St @ International School,,EB,United States,,Traffic,,,29.93645841011466,57,,,2012-03-12T00:00:00.000Z,FS / TFS,Internations School,x,,x,20,26,30,40,-90.073090612042037
+30.021729,-90.002468,NO103 / 104,Dwyer Rd @ Miller McCoy Academy,,EB,United States,,Traffic,,,30.021734431471494,58,,,2012-03-12T00:00:00.000Z,FS / TFS,Miller McCoy Academy,x,,x,20,26,30,40,-90.002473596576138
+30.021729,-90.002468,NO105 / 106,Dwyer Rd @ Miller McCoy Academy,,WB,United States,,Traffic,,,30.021734431471494,59,,,2012-03-12T00:00:00.000Z,FS / TFS,Miller McCoy Academy,x,,x,20,26,30,40,-90.002473596576138
+29.934984,-90.106205,NO107 / 108,Freret St @ Audubon Primary Academy,,EB,United States,,Traffic,,,29.934989408700407,60,,,2012-03-12T00:00:00.000Z,FS / TFS,Audubon Primary Academy,x,,x,20,26,25,35,-90.106210621285086
+29.934984,-90.106205,NO109 / 110,Freret St @ Audubon Primary Academy,,WB,United States,,Traffic,,,29.934989408700407,61,,,2012-03-12T00:00:00.000Z,FS / TFS,Audubon Primary Academy,x,,x,20,26,25,35,-90.106210621285086
+30.022528,-89.974111,NO111 / 112,Hammond St @ Resurrection of Our Lord School,,EB,United States,,Traffic,,,30.022533432362764,62,,,2012-03-12T00:00:00.000Z,FS / TFS,Resurection of our Lord,x,,x,20,26,25,35,-89.974116588884783
+30.022528,-89.974111,NO113 / 114,Hammond St @ Resurrection of Our Lord School,,WB,United States,,Traffic,,,30.022533432362764,63,,,2012-03-12T00:00:00.000Z,FS / TFS,Resurection of our Lord,x,,x,20,26,25,35,-89.974116588884783
+29.927457,-90.074809,NO115 / 116,Jackson Ave @ Laurel Elementary,,NB,United States,,Traffic,,,29.927462407824382,64,,,2012-03-12T00:00:00.000Z,FS / TFS,Laurel Elementry,x,,x,20,26,25,35,-90.074814611923017
+29.927457,-90.074809,NO117 / 118,Jackson Ave @ Laurel Elementary,,SB,United States,,Traffic,,,29.927462407824382,65,,,2012-03-12T00:00:00.000Z,FS / TFS,Laurel Elementry,x,,x,20,26,25,35,-90.074814611923017
+29.92577,-90.123197,NO119,Annunciation @ 2nd St,,WB,United States,,Traffic,,,29.925775406035203,66,,,2012-03-12T00:00:00.000Z,FS / TFS,,x,,,,,25,35,-90.123202625717255
+29.95354,-90.123107,NO120 / A_B,2032 S Carrollton Ave,,SB,United States,,Traffic,,,29.953545412150248,67,,,2017-08-21T00:00:00.000Z,FS / TFS,Stuart Hall School for Boys,x,,x,20,26,20,30,-90.123112627008524
+29.957857,-90.118395,NO121 / A_B,2619 S Carrollton Ave,,NB,United States,,Traffic,,,29.957862413771881,68,,,2017-09-13T00:00:00.000Z,FS / TFS,Lafayette School,x,,x,20,26,20,30,-90.118400625079559
+29.921102,-90.101321,NO122 / A_B,915 Napoleon Ave,,NB,United States,,Traffic,,,29.921107405500223,69,,,2017-09-09T00:00:00.000Z,FS / TFS,St George's Episcopal School,x,,x,20,26,35,45,-90.1013266188899
+29.921937,-90.10179,NO123 / A_B,1002 Napoleon Ave,,SB,United States,,Traffic,,,29.921942405879868,70,,,2017-09-07T00:00:00.000Z,FS / TFS,St Stephen School,x,,x,20,26,35,45,-90.101795619174197
+29.954415,-90.115055,NO124 / A_B,65 Fontainebleau Dr,,EB,United States,,Traffic,,,29.954420412417019,71,,,2017-08-24T00:00:00.000Z,FS / TFS,St Rita Catholic School,x,,x,20,26,30,40,-90.115060624241579
+30.01575,-90.076964,NO126 / A_B,1505 Prentiss Ave,,EB,United States,,Traffic,,,30.015755427557561,72,,,2017-07-12T00:00:00.000Z,FS / TFS,Holy Cross School,x,,x,20,26,35,45,-90.076969616523954
+29.947137,-90.089842,NO127 / A_B,3132 Martin Luther King Jr Blvd,,EB,United States,,Traffic,,,29.947142412083139,73,,,2017-08-15T00:00:00.000Z,FS / TFS,Sylvanie Williams College Prep,x,,x,20,26,35,45,-90.089847616786628
+29.947137,-90.089842,NO128 / A_B,3132 Martin Luther King Jr Blvd,,WB,United States,,Traffic,,,29.947142412083139,74,,,2017-08-07T00:00:00.000Z,FS / TFS,Sylvanie Williams College Prep,x,,x,20,26,35,45,-90.089847616786628
+29.973512,-90.098746,NO129 / A_B,3910 Canal St,,NB,United States,,Traffic,,,29.973517417347409,75,,,2017-08-02T00:00:00.000Z,FS / TFS,St John Lutheran School,x,,x,20,26,35,45,-90.098751621220316
+29.920317,-90.110328,NO132 / A_B,5107 Magazine St,,EB,United States,,Traffic,,,29.920322405331159,76,,,2017-08-23T00:00:00.000Z,FS / TFS,St Katharine Drexel Preparatory School,x,,x,20,26,35,45,-90.110333621865749
+29.920317,-90.110328,NO133 / A_B,5107 Magazine St,,WB,United States,,Traffic,,,29.920322405331159,77,,,2017-08-23T00:00:00.000Z,FS / TFS,St Katharine Drexel Preparatory School,x,,x,20,26,35,45,-90.110333621865749
+29.933953,-90.041566,NO134 / A_B,1921 LB Landry Ave,,NB,United States,,Traffic,,,29.933958410763285,78,,,2017-07-31T00:00:00.000Z,FS / TFS,William J Fischer Elementary School,x,,x,20,26,35,45,-90.041571603920175
+29.941727,-90.087095,NO136 / A_B,2418 Jackson Ave,,NB,United States,,Traffic,,,29.941732410720757,79,,,,FS / TFS,Mahalia Jackson Elementary School,x,,x,20,26,25,35,-90.087100615874974
+29.941727,-90.087095,NO137 / A_B,2418 Jackson Ave,,SB,United States,,Traffic,,,29.941732410720757,80,,,,FS / TFS,Mahalia Jackson Elementary School,x,,x,20,26,25,35,-90.087100615874974
+29.963133,-90.079606,NO138 / A_B,2063 Bienville St,,EB,United States,,Traffic,,,29.963138415487304,81,,,2017-07-25T00:00:00.000Z,FS / TFS,Success Preparatory Academy,x,,x,20,26,35,45,-90.079611614809693
+29.963133,-90.079606,NO139 / A_B,2063 Bienville St,,WB,United States,,Traffic,,,29.963138415487304,82,,,2017-07-14T00:00:00.000Z,FS / TFS,Success Preparatory Academy,x,,x,20,26,35,45,-90.079611614809693
+30.010597,-90.037991,NO140 / A_B,4642 Mirabeau Ave,,EB,United States,,Traffic,,,30.010602427487832,83,,,2017-09-22T00:00:00.000Z,FS / TFS,Mary D Coghill School,x,,x,20,26,25,35,-90.03799660586175
+30.010597,-90.037991,NO141 / A_B,4642 Mirabeau Ave,,WB,United States,,Traffic,,,30.010602427487832,84,,,2017-09-25T00:00:00.000Z,FS / TFS,Mary D Coghill School,x,,x,20,26,25,35,-90.03799660586175
+30.010515,-90.036973,NO142 / A_B,4916 Louisa St,,NB,United States,,Traffic,,,30.010520427547231,85,,,2017-07-19T00:00:00.000Z,FS / TFS,Mary D Coghill School,x,,x,20,26,25,35,-90.036978605071084
+30.010515,-90.036973,NO143 / A_B,4916 Louisa St,,SB,United States,,Traffic,,,30.010520427547231,86,,,2017-07-19T00:00:00.000Z,FS / TFS,Mary D Coghill School,x,,x,20,26,25,35,-90.036978605071084
+29.987784,-90.080266,NO146 / A_B,3424 Trafalgar St,,EB,United States,,Traffic,,,29.987789421537197,87,,,2017-07-11T00:00:00.000Z,FS / TFS,Langston Hughes Elementary School,x,,x,20,26,25,35,-90.080271616835958
+29.987784,-90.080266,NO147 / A_B,3424 Trafalgar St,,WB,United States,,Traffic,,,29.987789421537197,88,,,2017-07-09T00:00:00.000Z,FS / TFS,Langston Hughes Elementary School,x,,x,20,26,25,35,-90.080271616835958
+29.917518,-89.98442,NO149 / A_B,6551 Berkley Dr,,EB,United States,,Traffic,,,29.917523408976482,89,,,2017-08-14T00:00:00.000Z,FS / TFS,Algiers Technology Academy,x,,,20,26,25,35,-89.98442558723886
+29.917518,-89.98442,NO150 / A_B,6551 Berkley Dr,,WB,United States,,Traffic,,,29.917523408976482,90,,,2017-07-25T00:00:00.000Z,FS / TFS,Algiers Technology Academy,x,,x,20,26,25,35,-89.98442558723886
+30.022047,-90.090538,NO151 / A_B,78 Spanish Fort Blvd,,NB,United States,,Traffic,,,30.022052428183375,91,,,,FS / TFS,St Pius X School,x,,x,20,26,25,35,-90.090543620660412
+30.022047,-90.090538,NO152 / A_B,78 Spanish Fort Blvd,,SB,United States,,Traffic,,,30.022052428183375,92,,,,FS / TFS,St Pius X School,x,,x,20,26,25,35,-90.090543620660412
+29.987624,-90.072826,NO153 / A_B,2914 Paris Ave,,NB,United States,,Traffic,,,29.98762942094589,93,,,2017-07-11T00:00:00.000Z,FS / TFS,St Leo the Great School,x,,x,20,26,35,45,-90.072831614251967
+29.987624,-90.072826,NO154 / A_B,2914 Paris Ave,,SB,United States,,Traffic,,,29.98762942094589,94,,,2017-07-11T00:00:00.000Z,FS / TFS,St Leo the Great School,x,,x,20,26,35,45,-90.072831614251967
+29.94588,-90.085288,NO155 / A_B,1321 Magnolia St,,NB,United States,,Traffic,,,29.94588541166712,95,,,2017-07-25T00:00:00.000Z,FS / TFS,KIPP Central City Primary,x,,x,20,26,25,35,-90.085293616247029
+29.921092,-90.098518,NO156 / A_B,4118 Magazine St,,WB,United States,,Traffic,,,29.921097405988107,96,,,2017-09-11T00:00:00.000Z,FS / TFS,Ecole Bilingue de la Nouvelle-Orleans,x,,x,20,26,30,40,-90.098523618644606
+29.982068,-90.069736,NO158 / A_B,1842 N Dorgenois St,,EB,United States,,Traffic,,,29.982073420099965,97,,,2017-06-20T00:00:00.000Z,FS / TFS,Life of Christian Academy,x,,x,20,26,25,35,-90.069741612732301
+29.983647,-90.067579,NO160 / A_B,2600 A P Tureaud Ave,,SB,United States,,Traffic,,,29.983652421062718,98,,,2017-09-12T00:00:00.000Z,FS / TFS,St Augustine High School,x,,x,20,26,35,45,-90.067584612402896
+29.977438,-90.080124,NO161 / A_B,2724 Esplanade Ave,,NB,United States,,Traffic,,,29.977443418515904,99,,,2017-06-19T00:00:00.000Z,FS / TFS,McDonogh 28 Elementary School,x,,x,20,26,35,45,-90.080129615648417
+29.977438,-90.080124,NO162 / A_B,2724 Esplanade Ave,,SB,United States,,Traffic,,,29.977443418515904,100,,,2017-06-20T00:00:00.000Z,FS / TFS,McDonogh 28 Elementary School,x,,x,20,26,35,45,-90.080129615648417
+29.967774,-90.090967,NO165 / A_B,3014 Canal St,,EB,United States,,Traffic,,,29.96777941648746,101,,,2017-08-28T00:00:00.000Z,FS / TFS,Warren Easton High School,x,,x,20,26,25,35,-90.090972618837867
+29.967958,-90.090552,NO166 / A_B,5663 Freret St,,WB,United States,,Traffic,,,29.967963416144801,102,,,2017-09-05T00:00:00.000Z,FS / TFS,Lusher Middle & High School,x,,x,20,26,35,45,-90.090557617918634
+29.93277,-90.115594,NO167 / A_B,1769 Nashville Ave,,NB,United States,,Traffic,,,29.932775407793446,103,,,,FS / TFS,Lusher Middle & High School,x,,x,20,26,30,40,-90.115599623515124
+29.93277,-90.115594,NO168 / A_B,1769 Nashville Ave,,SB,United States,,Traffic,,,29.932775407793446,104,,,,FS / TFS,Lusher Middle & High School,x,,x,20,26,30,40,-90.115599623515124
+29.935781,-90.113704,NO169 / A_B,3013 Canal St,,WB,United States,,Traffic,,,29.935786408726045,105,,,2017-08-18T00:00:00.000Z,FS / TFS,Warren Easton High School,x,,x,20,26,25,35,-90.113709623315543
+29.943985,-90.121447,NO170 / A_B,1409 Broadway St,,NB,United States,,Traffic,,,29.943990410137495,106,,,2017-08-17T00:00:00.000Z,FS / TFS,Lusher Elementary School,x,,x,20,26,35,45,-90.121452625947882
+29.944332,-90.121397,NO171 / A_B,1430 Broadway St,,SB,United States,,Traffic,,,29.944337409951853,107,,,2017-08-17T00:00:00.000Z,FS / TFS,Lusher Elementary School,x,,x,20,26,35,45,-90.121402626015865
+29.96821,-90.079022,NO172 / A_B,2324 Orleans Ave,,EB,United States,,Traffic,,,29.968215417173621,108,,,2017-07-07T00:00:00.000Z,FS / TFS,Wheatley Elementary School,x,,x,20,26,35,45,-90.079027615520019
+29.96821,-90.079022,NO173 / A_B,2324 Orleans Ave,,WB,United States,,Traffic,,,29.968215417173621,109,,,2017-07-06T00:00:00.000Z,FS / TFS,Wheatley Elementary School,x,,x,20,26,35,45,-90.079027615520019
+29.982196,-90.087023,NO174 / A_B,3413 Esplanade Ave,,NB,United States,,Traffic,,,29.982201420055194,110,,,2017-06-23T00:00:00.000Z,FS / TFS,Bricolage Academy,x,,x,20,26,35,45,-90.087028618430992
+29.982196,-90.087023,NO175 / A_B,3413 Esplanade Ave,,SB,United States,,Traffic,,,29.982201420055194,111,,,2017-06-22T00:00:00.000Z,FS / TFS,Bricolage Academy,x,,x,20,26,35,45,-90.087028618430992
+29.9749,-90.100465,Carrollton Ave near Canal,,New Orleans,Louisiana,United States,70119,Surveillance,,There is a camera in front of the old Italian Pie/MilkFish building on Carrollton near Canal.,,,,,,,,,,,,,,,
+29.974686,-90.054755,North Derbigny @ Mandeville,2300 North Derbigny Street,New Orleans,Louisiana,United States,70117,Surveillance,,Sits cater corner to the corner store.,,,,,,,,,,,,,,,
+29.968003,-90.118725,Eagle St at Olive St,,New Orleans,Louisiana,United States,70118,Surveillance,,Sits on Eagle facing the Hollygrove Community Garden,,,,,,,,,,,,,,,
+29.952532,-90.107733,Octavia and Walmsley,4035 Octavia St,New Orleans,Louisiana,United States,70125,Surveillance,//zeemapsimages.s3.amazonaws.com/051185bee25e7c36cd5542f38a857040-1f8d052d14bcb54433d078f7ee466d17.jpg.max800.jpg,"Octavia and Walmsley
+across from 4035 Octavia",,,,,,,,,,,,,,,
+30.043324,-89.96194,Walmart Parking Lot,6000 Bullard Avenue,New Orleans,Louisiana,United States,70128,Surveillance,,There is a camera on one of the light posts in the Walmart parking lot.,,,,,,,,,,,,,,,
+29.97048,-90.058308,Frenchmen @ Royal,Frenchmen Street,New Orleans,Louisiana,United States,70116,Surveillance,,Crime camera,,,,,,,,,,,,,,,
+29.966973,-90.042343,Neutral Ground Near Wagners,3200 Saint Claude Ave,New Orleans,Louisiana,United States,70117,Surveillance,//zeemapsimages.s3.amazonaws.com/2f067803f5496a2641a0f3d857bb3c98-5275894349737185383.jpg,"There is a camera on the St. Claude neutral ground between Piety and Louisa, right in front of Wagners corner store, just passed the ""Always Film Cops"" billboard.",,,,,,,,,,,,,,,
+29.966283,-90.063592,Esplanade @ N. Rampart,1137 Esplanade Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,"There is a camera on the corner of Esplanade and N. Rampart, right next to the bus stop.",,,,,,,,,,,,,,,
+29.961218,-90.115519,Earhart near S. Carrollton,8108 Earhart Boulevard,New Orleans,Louisiana,United States,70118,Surveillance,,"There is a camera on a telephone pole near the corner of Earhart and S. Carrollton, right in front of a neon sign that reads ""God Bless America.""",,,,,,,,,,,,,,,
+29.964717,-90.073317,N. Claiborne @ Orleans,755 North Claiborne Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,"There is a camera on a telephone pole on the corner of N. Claiborne and Orleans, right by the Brown Derby.",,,,,,,,,,,,,,,
+29.967304,-90.071064,N. Claiborne @ Ursulines,1031 North Claiborne Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,There is a camera on the corner of N. Claiborne and Ursulines on a light pole in front of the old Full Gospel Church of God in Christ.,,,,,,,,,,,,,,,
+29.96446,-90.12056,Earhart @ Monroe,8635 Earhart Boulevard,New Orleans,Louisiana,United States,70118,Surveillance,,There is a camera at the corner of Earhart and Monroe on a telephone pole in front of the old Church's Chicken.,,,,,,,,,,,,,,,
+29.96555,-90.125489,Earhart @ Hamilton,2805 Hamilton Street,New Orleans,Louisiana,United States,70118,Surveillance,,There is a camera on the lake side corner of Earhart and Hamilton by the traffic light just before the Earhart Expressway begins.,,,,,,,,,,,,,,,
+29.968646,-90.104059,S. Pierce St. & Ulloa St,Ulloa Street,New Orleans,Louisiana,United States,70119,Surveillance,,NOPD Quality & Neighborhood Safety Camera on utility pole.,,,,,,,,,,,,,,,
+29.968646,-90.104059,S. Carrollton Ave. & Ulloa St.,Ulloa Street,New Orleans,Louisiana,United States,70119,Surveillance,,NOPD Quality & Neighborhood Safety Camera on utility pole.,,,,,,,,,,,,,,,
+29.968199,-90.101478,S. Cortez St. & D' Hemecourt St.,D Hemecourt Street,New Orleans,Louisiana,United States,70119,Traffic,,NOPD Quality & Neighborhood Safety Camera on utility pole.,,,,,,,,,,,,,,,
+29.932678,-90.0892,Dryades & Sixth,,New Orleans,Louisiana,United States,,Surveillance,,dryades & sixth,,,,,,,,,,,,,,,
+29.963086,-90.11288,Carrollton at Olive,,New Orleans,Louisiana,United States,,Surveillance,,"Carrollton at Olive in the neutral ground facing the post office, 1 of 2 cameras",,,,,,,,,,,,,,,
+29.953838,-90.118414,S. Claiborne @ Burdette,7800 South Claiborne Avenue,New Orleans,Louisiana,United States,70125,Surveillance,,There is a camera on a utility pole on the corner S. Claiborne and Burdette on the East bound side of the road.,,,,,,,,,,,,,,,
+29.973528,-90.058539,N. Claiborne @ Frenchman,1601 Frenchmen Street,New Orleans,Louisiana,United States,70116,Surveillance,,There is a camera on a utility pole on a utility pole at the corner of N. Claiborne and Frenchman two blocks before the entrance to I-10 West.,,,,,,,,,,,,,,,
+29.926964,-90.102408,St. Charles @ Napoleon,4401 Saint Charles Avenue,New Orleans,Louisiana,United States,70115,Surveillance,,"There is a camera on a utility pole at the corner of St. Charles and Napoleon, right by the bank and the bus stop.",,,,,,,,,,,,,,,
+29.920585,-90.101178,Napoleon @ Magazine,4336 Magazine Street,New Orleans,Louisiana,United States,70115,Surveillance,,"There is a camera on a utility pole at the corner of Magazine and Napoleon, right in front of Ms. Mae's The Club.",,,,,,,,,,,,,,,
+29.991673,-90.06663,New Orleans Street Near I-610 Exit,3411 New Orleans Street,New Orleans,Louisiana,United States,70122,Surveillance,,There is a camera on a utility pole in front of a private residence near the outlet for the New Orleans St-N Broad St I-610 exit.,,,,,,,,,,,,,,,
+29.962019,-90.123223,Monroe @ Belfast,8638 Belfast Street,New Orleans,Louisiana,United States,70118,Surveillance,,"There is a camera at the corner of Monroe and Belfast streets, right across the street from McKenzie's Food Store.",,,,,,,,,,,,,,,
+29.939772,-90.103814,S. Claiborne @ Napoleon,4400 South Claiborne Avenue,New Orleans,Louisiana,United States,70125,Surveillance,,"There is a camera on a utility pole at the corner of S. Claiborne and Napoleon, right in front of the Walgreens Pharmacy.",,,,,,,,,,,,,,,
+29.97361,-90.060937,N. Claiborne @ Pauger,1839 North Claiborne Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,"There is a camera on a utility pole on a utility pole at the corner of N. Claiborne and Pauger, near N. Claiborne Used Tires, one block before the entrance to I-10 West.",,,,,,,,,,,,,,,
+29.958041,-90.10964,Earhart @ Audubon,7100 Earhart Boulevard,New Orleans,Louisiana,United States,70125,Surveillance,,"There is a surveillance camera on a utility pole on Earhart, just before it intersects with Audubon.",,,,,,,,,,,,,,,
+29.970569,-90.07176,Bayou Rd/Barracks and N. Prieur,,New Orleans,Louisiana,United States,,Surveillance,,"On the corner with Bayou Rd/Barracks and N. Prieur.  It is a surveillance camera, though it does not flash.",,,,,,,,,,,,,,,
+29.972991,-90.073736,Esplanade @ North Miro,Esplanade Avenue,New Orleans,Louisiana,United States,,Surveillance,//zeemapsimages.s3.amazonaws.com/d2d369500cd50f7485d60e24f220f40a-image.jpg,,,,,,,,,,,,,,,,
+29.966646,-90.064631,Esplanade @ Henriette,,New Orleans,Louisiana,United States,,Surveillance,,Surveillance,,,,,,,,,,,,,,,
+29.993997,-90.109423,Canal @ Florida,,New Orleans,Louisiana,United States,70124,Surveillance,,"Blue and red flasher crime cameras installed here, camera looks west from the middle ground to the southbound Canal Blvd.  Been up a few months.",,,,,,,,,,,,,,,
+29.948734,-90.040222,Whitney @ Opelousas,622 Whitney Avenue,New Orleans,Louisiana,United States,70114,Surveillance,//zeemapsimages.s3.amazonaws.com/cee59b619b04057da29e4cafcc3e6834-image.jpg,Police cameras on the corner of Whitney and Opelousas,,,,,,,,,,,35,,,,
+29.923719,-90.07817,Clay Square Park,625 Third Street,New Orleans,Louisiana,United States,70130,Surveillance,,,,,,,,,,,,,,,,,
+29.974918,-90.091978,Jeff Davis @ Tolousse,,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+30.03272,-90.026882,Hayne @ Downman,,New Orleans,Louisiana,United States,70126,Surveillance,,,,,,,,,,,,,,,,,
+29.983375,-90.072023,St. Bernard @ North Broad,1835 North Broad Street,New Orleans,Louisiana,United States,70119,Surveillance,,Flashing lights camera,,,,,,,,,,,,,,,
+29.979591,-90.077773,"Stallings Playground, New Orleans, LA, USA",,New Orleans,Louisiana,United States,70119,Surveillance,,Red/Blue light surveillance camera,,,,,,,,,,,,,,,
+29.920532,-90.104972,Magazine @ Valence,,New Orleans,Louisiana,United States,70115,Surveillance,,,,,,,,,,,,,,,,,
+30.011209,-90.009757,Chef Menteur Hwy @ Dale,,New Orleans,Louisiana,United States,70126,Surveillance,,,,,,,,,,,,,,,,,
+29.964787,-90.031242,St. Claude @ Poland,,New Orleans,Louisiana,United States,70117,Surveillance,,cop camera,,,,,,,,,,,,,,,
+29.978773,-90.082711,Esplanade @ Gayoso,3006 Esplanade Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.954302,-90.01148,Tricou @ Chartres,,New Orleans,Louisiana,United States,70117,Surveillance,,"Tricou @ Chartres, by what used to be St. Maurice Elementary. Police surveillance camera on electrical pole. Flashes.",,,,,,,,,,,,,,,
+29.96995,-90.064294,St. Bernard @ Urquhart,1338 Saint Bernard Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,,,,Riverbound,In front of a house,,Surveillance,,,,,,,,,
+29.948539,-90.051177,Opelousas @ Nunez,,New Orleans,Louisiana,United States,70114,Surveillance,,Red and blue flashing crime camera,,,,,,,,,,,,,,,
+29.965011,-90.057464,Dauphine between Elysian Fields and Frenchmen,,New Orleans,Louisiana,United States,,Surveillance,,Lake side of the block.,,,,,,,,,,,,,,,
+29.943754,-90.086761,Saint Andrew & Magnolia,,New Orleans,Louisiana,United States,70113,Surveillance,,,,,,,,,,,,,,,,,
+29.931411,-90.073564,Magazine and St. Mary's St,1818 Magazine Street,New Orleans,Louisiana,United States,70130,Traffic,,,,,,,,,,,,,,,,,
+29.97188,-90.115248,Job Corps near Eagle @ Dixon,4000 Eagle Street,New Orleans,Louisiana,United States,70118,Surveillance,,surveillance,,,,,,,,,,,,,,,
+29.972967,-90.069807,Columbus @ North Prieur,,New Orleans,Louisiana,United States,,Surveillance,,,,,,,,,,,,,,,,,
+29.96062,-90.037348,Charters Street between Bartholomew and Alvar,,New Orleans,Louisiana,United States,70117,Surveillance,,,,,,,,,,,,,,,,,
+29.947249,-90.129814,Carrollton @ Oak,,New Orleans,Louisiana,United States,70118,Surveillance,,surveillance camera,,,,,,,,,,,,,,,
+29.948705,-90.131563,Oak @ Dante,,New Orleans,Louisiana,United States,70118,Surveillance,,surveillance camera,,,,,,,,,,,,,,,
+29.980021,-90.084899,Mystery near Grand Route St. John,Mystery Street,New Orleans,Louisiana,United States,70119,Surveillance,,"by the Alcee Fortier Park between Esplanade and Grand Route St. John, on Mystery Street; in front of a  house directly across the street (towards Carrollton) from the park, closer to Grand Route St. John than Esplanade",,,,,,,,,,,,,,,
+29.971184,-90.080136,Dumaine and Dorgenois,,New Orleans,Louisiana,United States,,Surveillance,,,,,,,,,,,,,,,,,
+29.951715,-90.100984,Washington @ South White,,New Orleans,Louisiana,United States,70125,Surveillance,,Crime camera near Propeller,,,,,,,,,,,,,,,
+29.952137,-90.135602,Oak @ Eagle,,New Orleans,Louisiana,United States,70118,Surveillance,,on utility pole in front of Cowbell,,,,,,,,,,,,,,,
+29.954302,-90.102546,,,New Orleans,Louisiana,United States,70125,Traffic,,,,,,,,,,,,,,,,,
+29.964629,-90.009104,North Claiborne @ Tupelo,,New Orleans,Louisiana,United States,70117,Surveillance,,,,,,,,,,,,,,,,,
+29.974082,-90.100797,S. Carrollton Near Canal,,New Orleans,Louisiana,United States,70119,Surveillance,,This is an NOPD Crime Camera w/ blue and red flashing lights outside of Juan's Flying Burrito on S. Carrollton near Canal.,,,,,,,,,,,,,,,
+29.975197,-90.04858,North Derbigny @ Franklin Ave,,New Orleans,Louisiana,United States,70117,Surveillance,,"Not in my neighborhood, you don't",,,,,,,,,,,,,,,
+29.945922,-90.071688,St. Charles @ Julia,,New Orleans,Louisiana,United States,70130,Surveillance,,Crime camera on lakeside of St Charles on lamp post,,,,,,,,,,,,,,,
+29.989383,-90.073155,Paris Ave @ Gentilly Blvd,,New Orleans,Louisiana,United States,70119,Surveillance,,On pole in front of Paris Ave Superette,,,,,,,,,,,,,,,
+30.056921,-89.969702,Hayne Blvd @ Bullard Ave,,New Orleans,Louisiana,United States,70128,Surveillance,,on pole by Family Ranch,,,,,,,,,,,,,,,
+29.988765,-90.075118,St Bernard @ Desaix,,New Orleans,Louisiana,United States,70119,Surveillance,,on utility pole at corner by bus stop,,,,,,,,,,,,,,,
+29.989453,-90.066251,N. Broad @ Treasure St,,New Orleans,Louisiana,United States,70122,Surveillance,,"on left side, just before the 610 entrance",,,,,,,,,,,,,,,
+29.94403,-90.087676,Josephine and Clara,,New Orleans,Louisiana,United States,,Surveillance,,Real time crime camera,,,,,,,,,,,,,,,
+29.923789,-90.080606,Washington and Annunciation,,New Orleans,Louisiana,United States,,Surveillance,,Real time crime camera,,,,,,,,,,,,,,,
+29.943482,-90.083492,MLK @ Rev. John Rafael Jr. Way,,New Orleans,Louisiana,United States,70113,Surveillance,,,,,,,,,,,,,,,,,
+29.969436,-90.052175,N. Rampart & St. Roch,2381 Saint Claude Avenue,New Orleans,Louisiana,United States,70117,Surveillance,,,,,,,,,,,,,,,,,
+30.004499,-90.106796,Harrison near Vicksburg,,New Orleans,Louisiana,United States,70124,Surveillance,,Crime camera by Chase,,,,,,,,,,,,,,,
+29.970867,-90.082869,Broad and Orleans,,New Orleans,Louisiana,United States,70119,Surveillance,,On a light pole by Cricket Wireless,,,,,,,,,,,,,,,
+29.973468,-90.07802,Dorgenois and Governor Nicholls,,New Orleans,Louisiana,United States,,Surveillance,,,,,,,,,,,,,,,,,
+29.971908,-90.120447,Palm @ Mistletoe,,New Orleans,Louisiana,United States,70118,Surveillance,,,,,,,,,,,,,,,,,
+29.955102,-90.129438,Leonidas @ Hickory,8601 Hickory Street,New Orleans,Louisiana,United States,70118,Surveillance,,"Outside of Pigeon Town Food Mart. Predominately black neighborhood that people socialize outside and often walk or bike.  Currently being gentrified faster due to the controversial ""French School"" that is moved in nearby.",,,,,,,,,,,,,,,
+29.956329,-90.131244,Eagle @ Hickory,1730 Eagle Street,New Orleans,Louisiana,United States,70118,Surveillance,,"Outside of Don's Food Mart/Okra Abbey. Black neighborhood that a French school moved into, whose parents and staff complained that black people are socializing outside, and some who considered buying the corner store so that their children were not exposed to the neighbors and neighborhood.",,,,,,,,,,,,,,,
+29.921115,-90.022659,Garden Oaks by Bus Stop,Garden Oaks Drive,New Orleans,Louisiana,United States,70114,Surveillance,,near apartments and bus stop,,,,,,,,,,,,,,,
+29.989326,-90.049106,Abundance and Franklin,2940 Constitution Street,New Orleans,Louisiana,United States,70122,Surveillance,,abundance and franklin ave,,,,,,,,,,,,,,,
+29.977013,-90.047599,Almonaster @ N. Prieur,1842 Almonaster Avenue,New Orleans,Louisiana,United States,70117,Surveillance,,almonaster and n prieur,,,,,,,,,,,,,,,
+30.022494,-90.051857,Franklin @ Robert E Lee,6211 Franklin Avenue,New Orleans,Louisiana,United States,70122,Surveillance,,Franklin ave and robert e lee,,,,,,,,,,,,,,,
+30.031895,-90.052686,Franklin Near Lakeshore,,New Orleans,Louisiana,United States,70122,Surveillance,,on franklin right before/after the incline,,,,,,,,,,,,,,,
+30.014381,-90.058,Mandeville and Odin,2270 Odin Street,New Orleans,Louisiana,United States,70122,Surveillance,,,,,,,,,,,,,,,,,
+29.9999,-90.059244,Gentilly @ Elysian Fields,3216 Gentilly Boulevard,New Orleans,Louisiana,United States,70122,Surveillance,,on gentilly and Elysian Fields,,,,,,,,,,,,,,,
+29.998453,-90.060539,Gentilly @ Frenchmen,3105 Gentilly Boulevard,New Orleans,Louisiana,United States,70122,Surveillance,,on gentilly and frenchman st,,,,,,,,,,,,,,,
+30.005231,-90.036292,Chef Menteur and Louisa,4490 Chef Menteur Highway,New Orleans,Louisiana,United States,70126,Surveillance,,on chef menteur and Louisa,,,,,,,,,,,,,,,
+29.985824,-90.076388,Gentilly and Belfort,1833 Gentilly Boulevard,New Orleans,Louisiana,United States,70119,Surveillance,,gentilly and belfort ave,,,,,,,,,,,,,,,
+29.976135,-90.076376,Bayou Road and De Soto,2500 Bayou Road,New Orleans,Louisiana,United States,70119,Surveillance,,bayou road and de soto,,,,,,,,,,,,,,,
+29.940437,-90.077992,Baronne and MLK,1501 Baronne Street,New Orleans,Louisiana,United States,70113,Surveillance,,baronne st and martin luther king blvd,,,,,,,,,,,,,,,
+29.907519,-90.018059,Behrman @ Tullis,,New Orleans,Louisiana,United States,70114,Surveillance,,on a light pole on the neutral ground,,,,,,,,,,,,,,,
+29.907519,-90.018059,General Meyer near Odeon,,New Orleans,Louisiana,United States,70114,Surveillance,,In front of the church,,,,,,,,,,,,,,,
+29.945248,-90.040827,Whitney @ Newton,,New Orleans,Louisiana,United States,70114,Surveillance,,behind the Old Algiers sign,,,,,,,,,,,,,,,
+29.946531,-90.052229,Homer @ Teche,840 Teche Street,New Orleans,Louisiana,United States,70114,Surveillance,,on a light post at the corner,,,,,,,,,,,,,,,
+29.9392,-90.041224,L.B. Landry near Lawrence,1527 L B Landry Avenue,New Orleans,Louisiana,United States,70114,Surveillance,,on the neutral ground,,,,,,,,,,,,,,,
+29.930466,-90.041921,General De Gaulle + L.B. Landry,1415 Erie Street,New Orleans,Louisiana,United States,70114,Surveillance,,on post in front of abandoned building,,,,,,,,,,,,,,,
+29.930466,-90.041921,St. Charles @ Lafayette,1415 Erie Street,New Orleans,Louisiana,United States,70114,Surveillance,,on park side,,,,,,,,,,,,,,,
+29.941454,-90.073548,St. Charles near Clio,1134 Saint Charles Avenue,New Orleans,Louisiana,United States,70130,Surveillance,,in front of scooter store,,,,,,,,,,,,,,,
+29.941454,-90.073548,St. Charles near Clio,1134 Saint Charles Avenue,New Orleans,Louisiana,United States,70130,Surveillance,,in front of scooter store,,,,,,,,,,,,,,,
+29.925468,-90.021534,General De Gaulle + Westbend,,New Orleans,Louisiana,United States,70114,Surveillance,,,,,,,,,,,,,,,,,
+29.93,-90.032116,General De Gaulle at Shirley,1864 Shirley Drive,New Orleans,Louisiana,United States,70114,Surveillance,,by the fire station,,,,,,,,,,,,,,,
+29.925578,-90.07339,Jackson + St. Thomas,600 Jackson Avenue,New Orleans,Louisiana,United States,70130,Surveillance,,by the auto yard,,,,,,,,,,,,,,,
+29.928246,-90.09131,Louisiana + St. Charles,3338 Saint Charles Avenue,New Orleans,Louisiana,United States,70115,Surveillance,,"neutral ground, Fresh Market side",,,,,,,,,,,,,,,
+29.93993,-90.089155,Freret + Second,2502 Freret Street,New Orleans,Louisiana,United States,70113,Surveillance,,,,,,,,,,,,,,,,,
+29.943754,-90.082131,Thalia + S. Liberty,2321 Thalia Street,New Orleans,Louisiana,United States,70113,Surveillance,,,,,,,,,,,,,,,,,
+29.943219,-90.082538,S. Liberty + MLK,,New Orleans,Louisiana,United States,70113,Surveillance,,appears like 3 connected cameras,,,,,,,,,,,,,,,
+29.967216,-90.077638,Galvez + Orleans,2139 Orleans Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,,,,,,,,,,,,,,,,
+29.98017,-90.067289,A.P. Tureaud + N. Tonti,2240 A P Tureaud Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.978822,-90.056379,N. Galvez + Marigny,2102 Marigny Street,New Orleans,Louisiana,United States,70117,Surveillance,,,,,,,,,,,,,,,,,
+29.97781,-90.055123,Mandeville @ N. Johnson,1998 Mandeville Street,New Orleans,Louisiana,United States,70117,Surveillance,,,,,,,,,,,,,,,,,
+29.975995,-90.0522,St. Roch + N. Roman,2423 North Roman Street,New Orleans,Louisiana,United States,70117,Surveillance,,near playground,,,,,,,,,,,,,,,
+29.974841,-90.066672,St. Bernard + N. Roman,1739 Saint Bernard Avenue,New Orleans,Louisiana,United States,70116,Surveillance,,,,,,,,,,,,,,,,,
+29.974142,-90.080209,Ursullines + Crete,1101 North Broad Street,New Orleans,Louisiana,United States,70119,Surveillance,,in front of Sxpress,,,,,,,,,,,,,,,
+29.969811,-90.078312,Dumaine + N. Tonti,2402 Dumaine Street,New Orleans,Louisiana,United States,70119,Surveillance,,across from school,,,,,,,,,,,,,,,
+29.956729,-90.104713,Jefferson Davis + Thalia,4503 Thalia Street,New Orleans,Louisiana,United States,70125,Surveillance,,across from the Shell,,,,,,,,,,,,,,,
+29.954118,-90.102368,Washington + Martin Luther King,4340 Washington Avenue,New Orleans,Louisiana,United States,70125,Surveillance,,neutral ground,,,,,,,,,,,,,,,
+29.950649,-90.101537,S. Broad + Elba,3401 South Broad Avenue,New Orleans,Louisiana,United States,70125,Surveillance,,on neutral ground,,,,,,,,,,,,,,,
+30.03752,-90.01148,Hayne + Sheephead,7220 Hayne Boulevard,New Orleans,Louisiana,United States,70126,Surveillance,,,,,,,,,,,,,,,,,
+30.033029,-90.026074,Hayne + Alabama,5900 Hayne Boulevard,New Orleans,Louisiana,United States,70126,Surveillance,,,,,,,,,,,,,,,,,
+30.010148,-90.020878,Downman + Chef,,New Orleans,Louisiana,United States,70126,Surveillance,,,,,,,,,,,,,,,,,
+30.010213,-90.019902,Chef Menteur near Downman,5937 Chef Menteur Highway,New Orleans,Louisiana,United States,70126,Surveillance,,in front of post office and across from Banner Chevrolet,,,,,,,,,,,,,,,
+30.012458,-89.998597,Chef Menteur + Wilson,7601 Chef Menteur Highway,New Orleans,Louisiana,United States,70126,Surveillance,,,,,,,,,,,,,,,,,
+29.943047,-90.071897,Surveillance Camera,1000 Andrew Higgins Boulevard,New Orleans,Louisiana,United States,70130,Surveillance,,Flashing Lights,,,,,,,,,,,,,,,
+29.96943,-90.088885,Bienville and Gayoso,3001 Bienville Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.968755,-90.084262,Greenway at N Broad,,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.969094,-90.084643,Greenway at N Broad,501 North Broad Street,New Orleans,Louisiana,United States,70119,Surveillance,,By bike rack on lake side,,,,,,,,,,,,,,,
+29.970284,-90.087067,Greenway at N Dupre,2917 Saint Louis Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.970962,-90.088221,Greenway btwn N Gayoso and N Salcedo,3052 Lafitte Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,"Unmarked, no police decal",,,,,,,,,,,,,,,
+29.971576,-90.089363,Greenway at N Lopez,400 North Lopez Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.972658,-90.091262,Greenway at Jeff Davis,3301 Conti Street,New Orleans,Louisiana,United States,70119,Surveillance,,Double sided,,,,,,,,,,,,,,,
+29.973086,-90.091836,Greenway at Jeff Davis (lake side),449 North Jefferson Davis Parkway,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.974582,-90.093124,Greenway at Wrong Iron,400 North Genois Street,New Orleans,Louisiana,United States,70119,Surveillance,,Behind bar at bike racks,,,,,,,,,,,,,,,
+29.975753,-90.094792,Greenway at N Cortez,494 North Cortez Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.976334,-90.095586,Greenway at N Scott,509 North Scott Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.977426,-90.097195,Greenway at N Carrollton,510 North Carrollton Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.977426,-90.097195,Greenway at N Carrollton,510 North Carrollton Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.977547,-90.097619,Greenway at N Carrollton (lake side),401 North Carrollton Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.978788,-90.099384,Greenway at N Solomon,157 Saint Louis Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.967891,-90.082975,Greenway @ N Dorgenois,2530 Lafitte Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.967861,-90.082976,Greenway @ N Dorgenois,2530 Lafitte Avenue,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.966583,-90.081099,Greenway @ N Tonti,2402 Saint Louis Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.966583,-90.081099,Greenway @ N Tonti,2402 Saint Louis Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.966583,-90.081099,Greenway @ N Tonti,2402 Saint Louis Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.968755,-90.084262,Greenway at N Broad,,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.969045,-90.084697,Greenway at N Broad,501 North Broad Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.965478,-90.079441,Greenway at North Galvez,525 North Galvez Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.965478,-90.079441,Greenway at N Galvez,525 North Galvez Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.965313,-90.079184,Galvez @ Greenway,432 North Galvez Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.965313,-90.079184,Galvez @ Greenway,432 North Galvez Street,New Orleans,Louisiana,United States,70119,Surveillance,,,,,,,,,,,,,,,,,
+29.964677,-90.077093,Greenway @ N Prieur,554 North Prieur Street,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.964677,-90.077093,Greenway @ N Prieur,554 North Prieur Street,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.964249,-90.07615,Greenway @ N Roman,1901 Saint Louis Street,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.964249,-90.07615,Greenway @ N Roman,1901 Saint Louis Street,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.964249,-90.07615,Greenway @ N Roman,1901 Saint Louis Street,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.963694,-90.075141,Greenway @ N Derbigny,1763 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.963694,-90.075141,Greenway @ N Derbigny,1763 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.963255,-90.07454,Greenway @ N Claiborne,1731 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.963255,-90.07454,Greenway @ N Claiborne,1731 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.962904,-90.074009,Greenway @ Lemann Playground,590 North Claiborne Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.962904,-90.074009,Greenway @ Lemann Playground,590 North Claiborne Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.963255,-90.07454,Greenway @ N Claiborne,1731 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,,,,,,,,,,,,,,,,
+29.96198,-90.072295,Greenway near N Villerie,1502 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,curve near basketball court,,,,,,,,,,,,,,,
+29.96198,-90.072295,Greenway near N Villerie,1502 Lafitte Avenue,New Orleans,Louisiana,United States,70112,Surveillance,,curve near basketball court,,,,,,,,,,,,,,,
+29.943219,-90.082538,S. Liberty + MLK,,New Orleans,Louisiana,United States,70113,Surveillance,,,,,,,,,,,,,,,,,
+29.943219,-90.082538,S. Liberty + MLK,,New Orleans,Louisiana,United States,70113,Surveillance,,,,,,,,,,,,,,,,,
+29.963086,-90.11288,Carrollton @ Olive,3394 South Carrollton Avenue,New Orleans,Louisiana,United States,70118,Surveillance,,,,,,,,,,,,,,,,,
